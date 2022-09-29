@@ -75,6 +75,7 @@ class PostController extends Controller
             'model' => $this->findModel($id),
             'dataProvider' => $dataProvider,
             'Comment' => $Comment,
+            'id' => $id,
         ]);
     }
 
